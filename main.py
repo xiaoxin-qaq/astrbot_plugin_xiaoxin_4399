@@ -16,7 +16,7 @@ class MyPlugin(Star):
     @filter.command("4399")
     async def get_4399_account(self, event: AstrMessageEvent):
         """获取4399免费账号"""
-        api_url = "em.xiaoxin.skin"
+        api_url = "https://em.xiaoxin.skin/"
 
         try:
             async with aiohttp.ClientSession() as session:
